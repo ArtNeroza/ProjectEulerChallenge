@@ -1,7 +1,9 @@
 # ProjectEulerChallenge
-Project Euler is an archive of mathematical / algorithmic problems intended to be solved in computer programs. 
+Project Euler is an archive of mathematical / algorithmic problems intended to be solved in computer programs. (https://projecteuler.net/about)
+
 This is for me to also learn C++ by its nature. 
-In this challenge, I will be using C++. And day by day we will be solving this problems. 
+In this challenge, We will be using C++. And day by day we will be solving this problems. 
+
 If you have some critics or suggestion please feel free to commit and comment :)
 
 PS: This was a challenge from a friend named: Nikolai Fontanila ( http://kranznikolai.com )
