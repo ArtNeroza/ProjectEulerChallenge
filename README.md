@@ -65,5 +65,36 @@ int main()
    return 0;
 }
 ```
+# Problem 3: Largest Prime Factor
+The prime factors of 13195 are 5, 7, 13 and 29.
+What is the largest prime factor of the number 600851475143 ?
+
+``` c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   unsigned long primeNum = 600851475143;
+   
+   for( long x = 2; x < primeNum; x++){
+       while( primeNum % x == 0 ){
+
+           //Break down to prime
+           primeNum = primeNum / x ;        
+	   
+       }
+       //cout << primeNum << endl;
+   }
+   
+   cout << primeNum << endl;
+   
+   return 0;
+}
+```
+The objective here to get to largest prime factor so we eliminated the other primes and concentrated on the largest one using 
+iteration by breaking it down. 
+It seems to be a slow program due to the long iteration and might not be a good solution so we'll try to re-fix this if we have the time.
 
 
